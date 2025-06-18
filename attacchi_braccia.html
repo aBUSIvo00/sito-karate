@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tabella Tecniche - Attacchi Braccia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    h3 {
+      text-align: center;
+      background-color: white;
+      margin-top: 0;
+      padding: 20px 0;
+      font-size: 24px;
+    }
+
+    .dojo-logo {
+      text-align: center;
+      padding: 10px 0;
+    }
+    .dojo-logo img {
+      max-width: 130px;
+      height: auto;
+      display: inline-block;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      background-color: #333;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 40px auto;
+      width: 90%;
+      max-width: 900px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    thead {
+      background-color: #f0f0f0;
+    }
+
+    tbody tr:hover {
+      background-color: #eaf6ff;
+      transition: background-color 0.2s;
+    }
+
+    #torna-su {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      padding: 12px 18px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: background-color 0.3s, transform 0.2s;
+      z-index: 1000;
+    }
+
+    #torna-su:hover {
+      background-color: #005fa3;
+      transform: scale(1.05);
+    }
+  #backToTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 30px 35px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 999;
+    }
+
+    #backToTop:hover {
+    background: #000000;
+  }
+  /* SCROLL BAR */
+  #progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background: #29b6f6;
+    width: 0%;
+    z-index: 9999;
+    transition: width 0.2s;
+  }
+    
+  </style>
+  <div id="progressBar"></div>
+</head>
+<body>
+  <div class="dojo-logo">
+    <img src="img/logo.png" alt="Logo Dojo" />
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="storia.html">Storia</a></li>
+      <li><a href="stili.html">Stili</a></li>
+      <li><a href="regole.html">Regole del Dojo</a></li>
+      <li><a href="divisa.html">Divisa</a></li>
+      <li><a href="tecniche.html">Tecniche</a></li>
+      <li><a href="fondamentali.html">Pilastri Fondamentali</a></li>
+      <li><a href="karate_sportivo.html">Karate Sportivo</a></li>
+      <li><a href="esame.html">Programmi d'esame</a></li>
+    </ul>
+  </nav>
+
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Nome</th>
+        <th>Descrizione</th>
+      </tr>
+    </thead>
+    <h1><p style="text-align: center;">Attacchi di pugno, mano, gomito</p></h1>
+    <tbody>
+        <tr><td><img src="img/oi_tzuki.jpg" alt="Oi Tzuki" width="50" /></td><td>Oi Tzuki</td><td>Attacco con il pugno corrispondente alla gamba che avanza. Il piede scivola sul terreno in avanti a semicerchio.</td></tr>
+        <tr><td><img src="img/gyaku_tzuki.jpg" alt="Gyaku Tzuki" width="50" /></td><td>Gyaku Tzuki</td><td>Attacco con il pugno opposto alla gamba avanti. Utilizza la rotazione dell’anca per potenziare il colpo.</td></tr>
+        <tr><td></td><td>Ren Tzuki</td><td>Doppio attacco di pugno senza avanzare.</td></tr>
+        <tr><td></td><td>Sanbon Tzuki</td><td>Triplo attacco di pugno senza avanzare.</td></tr>
+        <tr><td><img src="img/seiken_choku.jpg" alt="Seiken Choku Tzuki" width="50" /></td><td>Seiken Choku Tzuki</td><td>Attacco diretto di pugno con la parte Seiken.</td></tr>
+        <tr><td><img src="img/kizami_tzuki.jpg" alt="Kizami Tzuki" width="50" /></td><td>Kizami Tzuki</td><td>Attacco veloce con il pugno anteriore, sfruttando la rotazione dell’anca e la spinta della gamba posteriore.</td></tr>
+        <tr><td><img src="img/tate_tzuki.jpg" alt="Tate Tzuki" width="50" /></td><td>Tate Tzuki</td><td>Attacco con il pugno verticale, ruotando l’avambraccio di 90°. Colpisce viso o plesso solare.</td></tr>
+        <tr><td><img src="img/age_tzuki.jpg" alt="Age Tzuki" width="50" /></td><td>Age Tzuki</td><td>Attacco montante di pugno, colpisce verso l’alto viso o collo.</td></tr>
+        <tr><td><img src="img/ura_tzuki.jpg" alt="Ura Tzuki" width="50" /></td><td>Ura Tzuki</td><td>Attacco tipo uppercut con il pugno rivolto verso il basso. Colpisce viso, fianchi e plesso solare.</td></tr>
+        <tr><td><img src="img/mawashi_tzuki.jpg" alt="Mawashi Tzuki" width="50" /></td><td>Mawashi Tzuki</td><td>Attacco di pugno circolare con rotazione di 270°. Colpisce con Seiken viso o fianchi.</td></tr>
+        <tr><td></td><td>Kagi Tzuki</td><td>Attacco a uncino. Movimento a 90° con gomito piegato, colpisce fianchi o plesso solare.</td></tr>
+        <tr><td><img src="img/morote_tzuki.jpg" alt="Morote Tzuki" width="50" /></td><td>Morote Tzuki</td><td>Attacco con entrambe le mani. Le braccia restano parallele all’impatto.</td></tr>
+        <tr><td><img src="img/yama_tzuki.jpg" alt="Yama Tzuki" width="50" /></td><td>Yama Tzuki</td><td>Attacco a U con entrambi i pugni. Colpisce simultaneamente viso (pugno superiore) e plesso solare (inferiore).</td></tr>
+        <tr><td><img src="img/tetsui_uchi.jpg" alt="Tettsui Uchi" width="50" /></td><td>Tettsui Uchi</td><td>Colpo a martello. Parte da sotto l’ascella opposta con rotazione di 180° e colpisce sul fianco.</td></tr>
+        <tr><td><img src="img/urake_uchi.jpg" alt="Uraken Uchi" width="50" /></td><td>Uraken Uchi</td><td>Colpo con il dorso del pugno. Ruotando l’avambraccio, colpisce viso, fianchi e plesso solare.</td></tr>
+        <tr><td><img src="img/haishu_uchi.jpg" alt="Haishu Uchi" width="50" /></td><td>Haishu Uchi</td><td>Colpo con il dorso della mano. Stessa esecuzione del Tettsui Uchi.</td></tr>
+        <tr><td><img src="img/teisho_uchi.jpg" alt="Teisho Uchi" width="50" /></td><td>Teisho Uchi</td><td>Colpo con la base del palmo. Usato per colpire il mento o deviare un attacco.</td></tr>
+        <tr><td><img src="img/shuto_uchi.jpg" alt="Shuto Uchi" width="50" /></td><td>Shuto Uchi</td><td>Colpo con il taglio della mano (lato mignolo). Colpisce frontalmente usando il gomito come perno.</td></tr>
+        <tr><td><img src="img/haito_uchi.jpg" alt="Haito Uchi" width="50" /></td><td>Haito Uchi</td><td>Colpo con il taglio della mano (lato pollice). Stessa esecuzione dello Shuto Uchi.</td></tr>
+        <tr><td><img src="img/mae_empi.jpg" alt="Mae Empi Uchi" width="50" /></td><td>Mae Empi Uchi</td><td>Colpo di gomito in avanti.</td></tr>
+        <tr><td><img src="img/mae_empi.jpg" alt="Tate Empi Uchi" width="50" /></td><td>Tate Empi Uchi</td><td>Colpo di gomito verso l’alto.</td></tr>
+        <tr><td><img src="img/mawashi_empi.jpg" alt="Mawashi Empi Uchi" width="50" /></td><td>Mawashi Empi Uchi</td><td>Colpo di gomito con movimento circolare.</td></tr>
+        <tr><td><img src="img/yoko_empi.jpg" alt="Yoko Empi Uchi" width="50" /></td><td>Yoko Empi Uchi</td><td>Colpo di gomito laterale.</td></tr>
+        <tr><td><img src="img/ushiro_enpi.jpg" alt="Ushiro Empi Uchi" width="50" /></td><td>Ushiro Empi Uchi</td><td>Colpo di gomito all’indietro.</td></tr>
+        <tr><td></td><td>Otoshi Empi Uchi</td><td>Colpo di gomito verso il basso.</td></tr>
+    </tbody>
+  </table>
+
+  <button id="backToTop" onclick="scrollToTop()">⬆ Torna su</button>
+  <script src="script.js"></script>
+
+
+</body>
+</html>

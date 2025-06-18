@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wankan</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .kata-wrapper {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .kata-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .kata-description {
+      margin-top: 2rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: left;
+    }
+
+    @media (max-width: 600px) {
+      .kata-description {
+        font-size: 1rem;
+      }
+    }
+    /* SCROLL BAR */
+  #progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background: #29b6f6;
+    width: 0%;
+    z-index: 9999;
+    transition: width 0.2s;
+  }
+  </style>
+  <div id="progressBar"></div>
+</head>
+<body>
+
+  <header>
+    <h3>Indice</h3>
+    <div class="dojo-logo">
+      <img src="img/logo.png" alt="Logo Dojo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="storia.html">Storia</a></li>
+        <li><a href="stili.html">Stili</a></li>
+        <li><a href="regole.html">Regole del Dojo</a></li>
+        <li><a href="divisa.html">Divisa</a></li>
+        <li><a href="tecniche.html">Tecniche</a></li>
+        <li><a href="fondamentali.html">Pilastri Fondamentali</a></li>
+        <li><a href="karate_sportivo.html">Karate Sportivo</a></li>
+        <li><a href="esame.html">Programmi d'esame</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="kata-wrapper">
+      <h1>Wankan</h1>
+
+      <div class="kata-image">
+        <img src="img/wankan.jpg" alt="Foto del kata Bassai Dai" />
+      </div>
+
+      <div class="kata-description">
+        <p>
+            <ul>
+            <li>Yoi andando in Hachiji Dachi</li>
+            <li>Spostare piede sinistro a 45° ed eseguire Morote Kakiwake Jodan</li>
+            <li>Spostando il piede sinistro, Tsugiashi verso destra a 45°, eseguire Morote Kakiwake Jodan</li>
+            <li>Sollevare il ginocchio destro a 45°, mantenendosi in equilibrio sul piede sinistro, ed eseguire Morote Soto Uke Jodan con le due braccia davanti al viso in contatto fra loro</li>
+            <li>Mantenendo la posizione delle braccia, appoggiare la gamba destra davanti</li>
+            <li>Mantenendo la posizione delle braccia, avanzare con Hidari Kae Ashi (un passo)</li>
+            <li>Mantenendo la posizione delle braccia, avanzare ancora di un passo con Migi Kae Ashi terminando in Migi Fudo Dachi ed eseguendo Hidari Gyaku Tate Shuto</li>
+            <li>Sul posto, eseguire Ren Tzuki Chudan: destro poi sinistro</li>
+            <li>Spostare la gamba sinistra di 90° verso sinistra in Hidari Neko Ashi Dachi ed eseguire Osa Uke Gedan (braccio sinistro sopra il destro)</li>
+            <li>Avanzare con la gamba destra ed eseguire Gyaku Tate Shuto Chudan sinistra</li>
+            <li>Sul posto, eseguire Ren Tzuki Chudan: destro poi sinistro</li>
+            <li>Spostare la gamba sinistra di 180° verso sinistra in Hidari Neko Ashi Dachi ed eseguire Osa Uke Gedan (braccio sinistro sopra il destro)</li>
+            <li>Avanzare con la gamba destra ed eseguire Gyaku Tate Shuto Chudan sinistra</li>
+            <li>Sul posto, eseguire Ren Tzuki Chudan: destro poi sinistro</li>
+            <li>Spostare la gamba destra verso destra di 90° in posizione Kiba Dachi ed eseguire Yoko Tzuki destro</li>
+            <li>Avanzare calciando Hidari Mae Geri insieme a Oi Tzuki Chudan</li>
+            <li>Avanzare calciando Migi Mae Geri insieme a Oi Tzuki Chudan</li>
+            <li>Avanzare calciando Hidari Mae Geri insieme a Oi Tzuki Chudan</li>
+            <li>Spostando il piede destro di 180° dietro, eseguire Mawatte in Migi Fudo Dachi destro mentre si carica al fianco sinistro ed eseguire Yama Tzuki</li>
+            <li>Ritornare con la gamba destra</li>
+            <li>Yame</li>
+            </ul>
+        </p>
+      </div>
+      <div class="kata-video">
+      <video controls>
+      <source src="vid/wankan.m4v" type="video/mp4">
+      </video>
+    </div>
+  </main>
+<a href="elenco_kata.html" class="back-button">← Torna all'elenco dei Kata</a>
+<style>
+  .back-button {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 24px;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .back-button:hover {
+    background-color: #e63946;
+    transform: translateY(-2px);
+  }
+    .kata-video {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.kata-video video {
+  width: 100%;
+  max-width: 425px;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.kata-video video:hover {
+  transform: scale(1.02);
+}
+</style>
+ <button id="backToTop" onclick="scrollToTop()">⬆ Torna su</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tekki Nidan</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .kata-wrapper {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .kata-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .kata-description {
+      margin-top: 2rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: left;
+    }
+
+    @media (max-width: 600px) {
+      .kata-description {
+        font-size: 1rem;
+      }
+    }
+    /* SCROLL BAR */
+  #progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background: #29b6f6;
+    width: 0%;
+    z-index: 9999;
+    transition: width 0.2s;
+  }
+  </style>
+  <div id="progressBar"></div>
+</head>
+<body>
+
+  <header>
+    <h3>Indice</h3>
+    <div class="dojo-logo">
+      <img src="img/logo.png" alt="Logo Dojo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="storia.html">Storia</a></li>
+        <li><a href="stili.html">Stili</a></li>
+        <li><a href="regole.html">Regole del Dojo</a></li>
+        <li><a href="divisa.html">Divisa</a></li>
+        <li><a href="tecniche.html">Tecniche</a></li>
+        <li><a href="fondamentali.html">Pilastri Fondamentali</a></li>
+        <li><a href="karate_sportivo.html">Karate Sportivo</a></li>
+        <li><a href="esame.html">Programmi d'esame</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="kata-wrapper">
+      <h1>Tekki Nidan</h1>
+
+      <div class="kata-image">
+        <img src="img/tekki_nidan.jpg" alt="Foto del kata Bassai Dai" />
+      </div>
+
+      <div class="kata-description">
+        <p>
+            <ul>
+            <li>Yoi e vado in Hachiji Dachi</li>
+            <li>Sguardo a destra incrocio le gambe sinistro avanti ed eseguo Shinobi Hashi verso destra mentre porto i pugni all’altezza del petto gomiti paralleli al terreno.</li>
+            <li>Portando gli avambracci paralleli davanti al viso con i dorsi all’esterno, scendo in Kiba Dachi con la guardia a destra.</li>
+            <li>Incrocio la gamba sinistra davanti alla destra ed eseguo Morote Ude Uke Gedan destro dorso al pavimento da destra a sinistra, apro la gamba destra in Kiba Dachi ed eseguo Morote Ude Uke Gedan destro da sinistra a destra.</li>
+            <li>Riunisco la gamba sinistra mentre porto i pugni all’altezza del petto gomiti paralleli al terreno.</li>
+            <li>Portando gli avambracci paralleli davanti al viso con i dorsi all’esterno, scendo in Kiba Dachi con la guardia a sinistra.</li>
+            <li>Incrocio la gamba destra davanti alla sinistra ed eseguo Morote Ude Uke Gedan sinistro dorso al pavimento da sinistra a destra, apro la gamba sinistra in Kiba Dachi ed eseguo Morote Ude Uke Gedan sinistro da destra a sinistra.</li>
+            <li>Porto il braccio sinistro al fianco mano aperta con il pugno destro che appoggia sul palmo e continuo la sequenza eseguendo Morote Uke destro verso destra.</li>
+            <li>Eseguo Nami Gaeshi destro e riappoggiando il piede eseguo Mawashi Empii Uchi destro frontale.</li>
+            <li>Eseguo Tate Shuto Uke destro verso destra e Mawashi Tzuki Chudan destro verso destra.</li>
+            <li>Tenendo ferme le braccia eseguo un passo laterale verso destra incrociando il sinistro ed Migi Shinobi Hashi mentre scendo eseguo Uchi Uke sinistro.</li>
+            <li>Tesa Uke sinistro e carico ruotando il braccio Age Morote Tzuki destro richiamando il dorso della mano sinistra sotto il gomito destro. Kiai.</li>
+            <li>Porto il braccio destro al fianco mano aperta con il pugno sinistro che appoggia sul palmo e continuo la sequenza eseguendo Morote Uke sinistro verso sinistra.</li>
+            <li>Eseguo Nami Gaeshi sinistro e riappoggiando il piede eseguo Mawashi Empii Uchi sinistro frontale.</li>
+            <li>Eseguo Tate Shuto Uke sinistro verso sinistra e Mawashi Tzuki Chudan destro verso sinistra.</li>
+            <li>Tenendo ferme le braccia eseguo un passo laterale verso sinistra incrociando il destro ed Migi Shinobi Hashi mentre scendo eseguo Uchi Uke destro.</li>
+            <li>Tesa Uke destro e carico ruotando il braccio Age Morote Tzuki sinistro richiamando il dorso della mano destra sotto il gomito sinistro. Kiai.</li>
+            <li>Richiamo la gamba destra in Hachiji Dachi.</li>
+            <li>Yame.</li>
+            </ul>
+
+        </p>
+      </div>
+      <div class="kata-video">
+      <video controls>
+      <source src="vid/tekki_nidan.m4v" type="video/mp4">
+      </video>
+    </div>
+  </main>
+<a href="elenco_kata.html" class="back-button">← Torna all'elenco dei Kata</a>
+<style>
+  .back-button {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 24px;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .back-button:hover {
+    background-color: #e63946;
+    transform: translateY(-2px);
+  }
+    .kata-video {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.kata-video video {
+  width: 100%;
+  max-width: 425px;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.kata-video video:hover {
+  transform: scale(1.02);
+}
+</style>
+ <button id="backToTop" onclick="scrollToTop()">⬆ Torna su</button>
+  <script src="script.js"></script>
+</body>
+</html>

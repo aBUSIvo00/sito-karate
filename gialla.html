@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karate - Gialla</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <style>
+    .exam-program {
+      font-family: 'Georgia', serif;
+      color: #000;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    .exam-title {
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .exam-subtitle {
+      text-align: center;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      font-size: 1.3em;
+      text-shadow: 1px 1px 0px #555;
+    }
+    .belt-image {
+      display: block;
+      margin: 10px auto;
+      width: 200px;
+    }
+    .exam-section {
+      margin-top: 30px;
+    }
+    .exam-section h3 {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .exam-section ol {
+      padding-left: 20px;
+    }
+    .exam-note {
+      font-weight: bold;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .exam-note span {
+      display: block;
+      font-style: italic;
+      font-weight: normal;
+    }
+    /* SCROLL BAR */
+  #progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background: #29b6f6;
+    width: 0%;
+    z-index: 9999;
+    transition: width 0.2s;
+  }
+  </style>
+  <div id="progressBar"></div>
+</head>
+<body>
+  <header>
+    <h3>Indice</h3>
+    <div class="dojo-logo">
+      <img src="img/logo.png" alt="Logo Dojo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="storia.html">Storia</a></li>
+        <li><a href="stili.html">Stili</a></li>
+        <li><a href="regole.html">Regole del Dojo</a></li>
+        <li><a href="divisa.html">Divisa</a></li>
+        <li><a href="tecniche.html">Tecniche</a></li>
+        <li><a href="fondamentali.html">Pilastri Fondamentali</a></li>
+        <li><a href="karate_sportivo.html">Karate Sportivo</a></li>
+        <li><a href="esame.html">Programmi d'esame</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="exam-program">
+      <div class="exam-title">8° KYU</div>
+      <div class="exam-subtitle">GIALLA</div>
+      <img src="img/gialla.jpg" alt="Cintura Gialla" class="belt-image">
+
+      <div class="exam-section">
+        <h3>KIHON:</h3>
+        <ol>
+          <li>OIZUKI JODAN</li>
+          <li>AGE UKE</li>
+          <li>OIZUKI CHUDAN</li>
+          <li>SOTO UKE</li>
+          <li>GYAKU ZUKI</li>
+          <li>GEDAN BARAI</li>
+          <LI>MAE GERI</LI>
+        </ol>
+      </div>
+
+      <div class="exam-section">
+        <h3>KUMITE:</h3>
+        <p>JIYU KUMITE</p>
+      </div>
+
+      <div class="exam-section">
+        <h3>KATA:</h3>
+        <p>TAIKYOKU SHODAN</p>
+      </div>
+
+      <div class="exam-section">
+        <h3>TEORIA:</h3>
+        <p>Teoria relativa al grado e al periodo di pratica dell’atleta.</p>
+      </div>
+
+      <div class="exam-note">
+        IL PROGRAMMA D’ESAME VA ALLENATO SIA A DESTRA CHE A SINISTRA
+        <span>(Soprattutto per i bambini)</span>
+      </div>
+    </section>
+  </main>
+
+   <button id="backToTop" onclick="scrollToTop()">⬆ Torna su</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tabella Tecniche - Posizioni</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    h3 {
+      text-align: center;
+      background-color: white;
+      margin-top: 0;
+      padding: 20px 0;
+      font-size: 24px;
+    }
+
+    .dojo-logo {
+      text-align: center;
+      padding: 10px 0;
+    }
+    .dojo-logo img {
+      max-width: 130px;
+      height: auto;
+      display: inline-block;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      background-color: #333;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 40px auto;
+      width: 90%;
+      max-width: 900px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    thead {
+      background-color: #f0f0f0;
+    }
+
+    tbody tr:hover {
+      background-color: #eaf6ff;
+      transition: background-color 0.2s;
+    }
+
+    #torna-su {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      padding: 12px 18px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: background-color 0.3s, transform 0.2s;
+      z-index: 1000;
+    }
+
+    #torna-su:hover {
+      background-color: #005fa3;
+      transform: scale(1.05);
+    }
+  #backToTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 30px 35px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 999;
+    }
+
+    #backToTop:hover {
+    background: #000000;
+  }
+  /* SCROLL BAR */
+  #progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background: #29b6f6;
+    width: 0%;
+    z-index: 9999;
+    transition: width 0.2s;
+  }
+  </style>
+  <div id="progressBar"></div>
+</head>
+<body>
+  <div class="dojo-logo">
+    <img src="img/logo.png" alt="Logo Dojo" />
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="storia.html">Storia</a></li>
+      <li><a href="stili.html">Stili</a></li>
+      <li><a href="regole.html">Regole del Dojo</a></li>
+      <li><a href="divisa.html">Divisa</a></li>
+      <li><a href="tecniche.html">Tecniche</a></li>
+      <li><a href="fondamentali.html">Pilastri Fondamentali</a></li>
+      <li><a href="karate_sportivo.html">Karate Sportivo</a></li>
+      <li><a href="esame.html">Programmi d'esame</a></li>
+    </ul>
+  </nav>
+
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Nome</th>
+        <th>Descrizione</th>
+      </tr>
+    </thead>
+        <h1><p style="text-align: center;">Posizioni (Dachi)</p></h1>
+    <tbody>
+        <tr><td><img src="img/heisoku_dachi.jpg" alt="Heisoku Dachi" width="50" /></td><td>Heisoku Dachi</td><td>Posizione naturale a piedi uniti. I piedi sono paralleli e si toccano, ginocchia rilassate.</td></tr>
+        <tr><td><img src="img/musubi_dachi.jpg" alt="Musubi Dachi" width="50" /></td><td>Musubi Dachi</td><td>Posizione naturale con talloni uniti e punte dei piedi rivolte verso l’esterno a 45°.</td></tr>
+        <tr><td><img src="img/hachiji_dachi.jpg" alt="Hachiji Dachi" width="50" /></td><td>Hachiji Dachi</td><td>Posizione a piedi divaricati, talloni alla larghezza dei fianchi e punte a 45° verso l’esterno.</td></tr>
+        <tr><td><img src="img/zenkutsu_dachi.jpg" alt="Zenkutsu Dachi" width="50" /></td><td>Zenkutsu Dachi</td><td>Posizione in avanti da attacco. 60% del peso sulla gamba anteriore, 40% su quella posteriore.</td></tr>
+        <tr><td><img src="img/kokutsu_dachi.jpg" alt="Kokutsu Dachi" width="50" /></td><td>Kokutsu Dachi</td><td>Posizione indietro da difesa. 70% del peso sulla gamba posteriore, piedi a 90° tra loro.</td></tr>
+        <tr><td><img src="img/kiba_dachi.jpg" alt="Kiba Dachi" width="50" /></td><td>Kiba Dachi</td><td>Posizione del cavaliere. Peso equamente distribuito. Piedi paralleli o leggermente verso l’interno.</td></tr>
+        <tr><td><img src="img/neki_ashi.jpg" alt="Neko Ashi Dachi" width="50" /></td><td>Neko Ashi Dachi</td><td>Posizione del gatto. 90% del peso sulla gamba posteriore, piede anteriore tocca leggermente il suolo.</td></tr>
+        <tr><td><img src="img/sanchin_dachi.jpg" alt="Sanchin Dachi" width="50" /></td><td>Sanchin Dachi</td><td>Posizione a clessidra. Ginocchia piegate e rivolte all’interno, piedi in linea con i fianchi.</td></tr>
+        <tr><td><img src="img/hangetsu_dachi.jpg" alt="Hangetsu Dachi" width="50" /></td><td>Hangetsu Dachi</td><td>Posizione della mezzaluna. Via di mezzo tra Zenkutsu e Sanchin, piedi come Zenkutsu ma più vicini.</td></tr>
+        <tr><td><img src="img/sochin_dachi.jpg" alt="Sochin o Fudo Dachi" width="50" /></td><td>Sochin / Fudo Dachi</td><td>Posizione consolidata. Fusione tra Zenkutsu e Kiba. Punte dei piedi a 45°, ginocchia spinte all’esterno.</td></tr>
+
+    </tbody>
+  </table>
+
+ <button id="backToTop" onclick="scrollToTop()">⬆ Torna su</button>
+  <script src="script.js"></script>
+
+</body>
+</html>

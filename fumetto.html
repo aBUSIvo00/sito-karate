@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karate - Fumetto</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <style>
+  /* SCROLL BAR */
+  #progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background: #29b6f6;
+    width: 0%;
+    z-index: 9999;
+    transition: width 0.2s;
+  }
+
+  .fumetto-karate {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+</style>
+</head>
+<div id="progressBar"></div>
+<body>
+  <header>
+    <h3>Indice</h3>
+    <div class="dojo-logo">
+    <img src="img/logo.png" alt="Logo Dojo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="storia.html">Storia</a></li>
+        <li><a href="stili.html">Stili</a></li>
+        <li><a href="regole.html">Regole del Dojo</a></li>
+        <li><a href="divisa.html">Divisa</a></li>
+        <li><a href="tecniche.html">Tecniche</a></li>
+        <li><a href="fondamentali.html">Pilastri Fondamentali</a></li>
+        <li><a href="karate_sportivo.html">Karate Sportivo</a></li>
+        <li><a href="esame.html">Programmi d'esame</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+<img src="img/fumetto1.jpg" alt=" Fumetto Karate" class="fumetto-karate">
+<img src="img/fumetto2.jpg" alt=" Fumetto Karate" class="fumetto-karate">
+<img src="img/fumetto3.jpg" alt=" Fumetto Karate" class="fumetto-karate">
+<img src="img/fumetto4.jpg" alt=" Fumetto Karate" class="fumetto-karate">
+<img src="img/fumetto5.jpg" alt=" Fumetto Karate" class="fumetto-karate">
+<img src="img/fumetto6.jpg" alt=" Fumetto Karate" class="fumetto-karate">
+
+    </section>
+  </main>
+  <button id="backToTop" onclick="scrollToTop()">⬆ Torna su</button>
+  <script src="script.js"></script>
+</body>
+</html>

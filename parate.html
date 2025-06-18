@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tabella Tecniche - Parate</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    h3 {
+      text-align: center;
+      background-color: white;
+      margin-top: 0;
+      padding: 20px 0;
+      font-size: 24px;
+    }
+
+    .dojo-logo {
+      text-align: center;
+      padding: 10px 0;
+    }
+    .dojo-logo img {
+      max-width: 130px;
+      height: auto;
+      display: inline-block;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      background-color: #333;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 40px auto;
+      width: 90%;
+      max-width: 900px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    thead {
+      background-color: #f0f0f0;
+    }
+
+    tbody tr:hover {
+      background-color: #eaf6ff;
+      transition: background-color 0.2s;
+    }
+
+    #torna-su {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      padding: 12px 18px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: background-color 0.3s, transform 0.2s;
+      z-index: 1000;
+    }
+
+    #torna-su:hover {
+      background-color: #005fa3;
+      transform: scale(1.05);
+    }
+  #backToTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 30px 35px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 999;
+    }
+
+    #backToTop:hover {
+    background: #000000;
+  }
+  /* SCROLL BAR */
+  #progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background: #29b6f6;
+    width: 0%;
+    z-index: 9999;
+    transition: width 0.2s;
+  }
+  </style>
+  <div id="progressBar"></div>
+</head>
+<body>
+  <div class="dojo-logo">
+    <img src="img/logo.png" alt="Logo Dojo" />
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="storia.html">Storia</a></li>
+      <li><a href="stili.html">Stili</a></li>
+      <li><a href="regole.html">Regole del Dojo</a></li>
+      <li><a href="divisa.html">Divisa</a></li>
+      <li><a href="tecniche.html">Tecniche</a></li>
+      <li><a href="fondamentali.html">Pilastri Fondamentali</a></li>
+      <li><a href="karate_sportivo.html">Karate Sportivo</a></li>
+      <li><a href="esame.html">Programmi d'esame</a></li>
+    </ul>
+  </nav>
+
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Nome</th>
+        <th>Descrizione</th>
+      </tr>
+    </thead>
+        <h1><p style="text-align: center;">Parate (Uke)</p></h1>
+    <tbody>
+        <tr><td><img src="img/age_uke.jpg" alt="Age Uke" width="50" /></td><td>Age Uke</td><td>Parata alta. Il braccio si solleva frontalmente fino all’altezza dell’orecchio, ruotando il polso durante il movimento.</td></tr>
+        <tr><td><img src="img/uchi_uke.jpg" alt="Uchi Uke" width="50" /></td><td>Uchi Uke</td><td>Parata interna. Dal fianco opposto all’esterno con gomito a 90° e pugno all’altezza del mento.</td></tr>
+        <tr><td><img src="img/soto_uke.jpg" alt="Soto Uke" width="50" /></td><td>Soto Uke</td><td>Parata esterna. Dal lato all’orecchio, poi verso l’interno e in avanti per deviare un pugno.</td></tr>
+        <tr><td><img src="img/gedan_barai.jpg" alt="Gedan Barai" width="50" /></td><td>Gedan Barai</td><td>Parata bassa. Movimento a semicerchio verso il basso per deviare calci con la parte esterna del polso.</td></tr>
+        <tr><td><img src="img/shuto_uke.jpg" alt="Shuto Uke" width="50" /></td><td>Shuto Uke</td><td>Parata con il taglio della mano. Ruotare il corpo portando la mano aperta avanti con gomito a 90°.</td></tr>
+        <tr><td><img src="img/morote_uke.jpg" alt="Morote Uke" width="50" /></td><td>Morote Uke</td><td>Parata rinforzata. Un Uchi Uke supportato dalla mano opposta sopra il gomito.</td></tr>
+        <tr><td><img src="img/juji_uke.jpg" alt="Juji Uke" width="50" /></td><td>Juji Uke</td><td>Parata a X. Le mani si incrociano all’altezza dei polsi. Possono essere aperte o chiuse.</td></tr>
+        <tr><td><img src="img/teisho.jpg" alt="Teisho Uke" width="50" /></td><td>Teisho Uke</td><td>Parata con la base del palmo. Si usa per deviare avambraccio o gamba dell’avversario.</td></tr>
+        <tr><td><img src="img/haishu_uke.jpg" alt="Haishu Uke" width="50" /></td><td>Haishu Uke</td><td>Parata con il dorso della mano. Movimento di slancio per colpire l’avambraccio dell’avversario.</td></tr>
+        <tr><td><img src="img/tate_shuto.jpg" alt="Tate Shuto Uke" width="50" /></td><td>Tate Shuto Uke</td><td>Parata con taglio verticale della mano. Movimento dall’interno verso l’esterno con dita rivolte in su.</td></tr>
+        <tr><td></td><td>Kake Shuto Uke</td><td>Parata agganciante. Dopo la parata si afferra il braccio dell’avversario per sbilanciarlo.</td></tr>
+        <tr><td><img src="img/kakiwake_uke.jpg" alt="Kakiwake Uke" width="50" /></td><td>Kakiwake Uke</td><td>Parata doppia. Da presa al collo, si spingono le braccia verso l’esterno per liberarsi.</td></tr>
+        <tr><td><img src="img/osae_uke.jpg" alt="Osae Uke" width="50" /></td><td>Osae Uke</td><td>Parata con pressione. Si colpisce il braccio dell’avversario verso il basso e lo si tira a sé.</td></tr>
+        <tr><td></td><td>Te Nagashi Uke</td><td>Parata con spazzata della mano. Si devia il pugno dell’avversario verso l’esterno.</td></tr>
+        <tr><td></td><td>Hai Wan Nagashi Uke</td><td>Spazzata con l’avambraccio. Movimento fluido e deviazione verso l’alto.</td></tr>
+        <tr><td><img src="img/tetsui_uke.jpg" alt="Tettsui Uke" width="50" /></td><td>Tettsui Uke</td><td>Parata con la mano a martello.</td></tr>
+        <tr><td></td><td>Keito Uke</td><td>Parata con la base del pollice. Movimento dal basso verso l’alto.</td></tr>
+        <tr><td><img src="img/tekubi_kake_uke.jpg" alt="Tekubi Kake Uke" width="50" /></td><td>Tekubi Kake Uke</td><td>Parata a uncino con il polso. Movimento di 270° laterale e in alto.</td></tr>
+        <tr><td><img src="img/sukui_uke.jpg" alt="Sukui Uke" width="50" /></td><td>Sukui Uke</td><td>Parata a cucchiaio. Agganciare la caviglia dell’avversario con la mano aperta e sollevarla.</td></tr>
+        <tr><td><img src="img/mikazuki_geri_uke.jpg" alt="Mikazuki Geri Uke" width="50" /></td><td>Mikazuki Geri Uke</td><td>Parata con calcio a semicerchio. Si usa la pianta del piede per deviare un pugno.</td></tr>
+        <tr><td><img src="img/nami_ashi_uke.jpg" alt="Nami Ashi Uke" width="50" /></td><td>Nami Ashi Uke</td><td>Parata con il piede. Usata per deviare un calcio all’inguine.</td></tr>
+        <tr><td><img src="img/tsukami_uke.jpg" alt="Tsukami Uke" width="50" /></td><td>Tsukami Uke</td><td>Parata con presa. Si afferra polso e gomito dell’avversario e lo si tira verso l’esterno.</td></tr>
+        <tr><td></td><td>Otoshi Uke</td><td>Parata discendente. Spinta forte verso il basso per deviare un attacco all’addome.</td></tr>
+        <tr><td></td><td>Kakuto Uke</td><td>Parata con il dorso del polso. Movimento dal basso verso l’alto con polso piegato.</td></tr>
+        <tr><td></td><td>Seiryuto Uke</td><td>Parata con la base del taglio della mano. Movimento dall’alto in basso per deviare gamba o avambraccio.</td></tr>
+
+    </tbody>
+  </table>
+
+ <button id="backToTop" onclick="scrollToTop()">⬆ Torna su</button>
+  <script src="script.js"></script>
+  
+</body>
+</html>

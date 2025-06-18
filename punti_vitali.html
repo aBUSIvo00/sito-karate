@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tabella Tecniche - Punti vitali</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    h3 {
+      text-align: center;
+      background-color: white;
+      margin-top: 0;
+      padding: 20px 0;
+      font-size: 24px;
+    }
+
+    .dojo-logo {
+      text-align: center;
+      padding: 10px 0;
+    }
+    .dojo-logo img {
+      max-width: 130px;
+      height: auto;
+      display: inline-block;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      background-color: #333;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 40px auto;
+      width: 90%;
+      max-width: 900px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    thead {
+      background-color: #f0f0f0;
+    }
+
+    tbody tr:hover {
+      background-color: #eaf6ff;
+      transition: background-color 0.2s;
+    }
+
+    #torna-su {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      padding: 12px 18px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: background-color 0.3s, transform 0.2s;
+      z-index: 1000;
+    }
+
+    #torna-su:hover {
+      background-color: #005fa3;
+      transform: scale(1.05);
+    }
+  #backToTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 30px 35px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 999;
+    }
+
+    #backToTop:hover {
+    background: #000000;
+  }
+  /* SCROLL BAR */
+  #progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background: #29b6f6;
+    width: 0%;
+    z-index: 9999;
+    transition: width 0.2s;
+  }
+  </style>
+  <div id="progressBar"></div>
+</head>
+<body>
+  <div class="dojo-logo">
+    <img src="img/logo.png" alt="Logo Dojo" />
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="storia.html">Storia</a></li>
+      <li><a href="stili.html">Stili</a></li>
+      <li><a href="regole.html">Regole del Dojo</a></li>
+      <li><a href="divisa.html">Divisa</a></li>
+      <li><a href="tecniche.html">Tecniche</a></li>
+      <li><a href="fondamentali.html">Pilastri Fondamentali</a></li>
+      <li><a href="karate_sportivo.html">Karate Sportivo</a></li>
+      <li><a href="esame.html">Programmi d'esame</a></li>
+    </ul>
+  </nav>
+
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Nome</th>
+        <th>Descrizione</th>
+      </tr>
+    </thead>
+        <h1><p style="text-align: center;">Parti che colpiscono punti vitali</p></h1>
+      <tbody>
+        <tr><td><img src="img/seiken.jpg" alt="Seiken" width="50" /></td><td>Seiken</td><td>Parte anteriore del pugno (fondamentale). Colpisce la parte compresa tra nocche e la prima falange di indice e medio.</td></tr>
+        <tr><td><img src="img/uraken.jpg" alt="Uraken" width="50" /></td><td>Uraken</td><td>Pugno rovesciato (dorso del pugno). Colpisce il dorso della mano e la parte superiore delle nocche di indice e medio.</td></tr>
+        <tr><td><img src="img/ippon_ken.jpg" alt="Ippon Ken" width="50" /></td><td>Ippon Ken</td><td>Pugno con una nocca sporgente. Come il Seiken ma con la parte tra la prima e la seconda falange del dito indice che sporge frontalmente. Il pollice è premuto sul fianco dell’indice per rinforzarlo.</td></tr>
+        <tr><td><img src="img/nakadaka_ken.jpg" alt="Nakadaka Ken" width="50" /></td><td>Nakadaka Ken</td><td>Pugno con la nocca del medio sporgente. Come l’Ippon Ken ma il dito sporgente è il medio. Il pollice è piegato su indice e medio.</td></tr>
+        <tr><td><img src="img/nukite.jpg" alt="Nukite" width="50" /></td><td>Nukite</td><td>Punta delle dita (mano tesa). Ritraendo leggermente il medio si forma una superficie livellata con indice e anulare.</td></tr>
+        <tr><td><img src="img/ippon_nukite.jpg" alt="Ippon Nukite" width="50" /></td><td>Ippon Nukite</td><td>Nukite con un solo dito (indice).</td></tr>
+        <tr><td><img src="img/nihon_nukite.jpg" alt="Nihon Nukite" width="50" /></td><td>Nihon Nukite</td><td>Nukite con due sole dita (indice e medio).</td></tr>
+        <tr><td><img src="img/washide.jpg" alt="Washide" width="50" /></td><td>Washide</td><td>Mano a becco d’aquila. Le punte delle dita sono premute insieme fino a sembrare il becco di un uccello.</td></tr>
+        <tr><td><img src="img/shuto.jpg" alt="Shuto" width="50" /></td><td>Shuto</td><td>Taglio della mano (parte del mignolo).</td></tr>
+        <tr><td><img src="img/haito.jpg" alt="Haito" width="50" /></td><td>Haito</td><td>Taglio della mano (parte del pollice).</td></tr>
+        <tr><td><img src="img/haishu.jpg" alt="Haishu" width="50" /></td><td>Haishu</td><td>Dorso della mano aperta.</td></tr>
+        <tr><td><img src="img/kumade.jpg" alt="Kumade" width="50" /></td><td>Kumade</td><td>Mano a zampa d’orso (palmo). Le dita sono piegate all’interno fino a toccare il palmo con le punte.</td></tr>
+        <tr><td><img src="img/keito.jpg" alt="Keito" width="50" /></td><td>Keito</td><td>Mano a testa di gallina (base del pollice). Il colpo si esegue con la parte tra la base e la prima falange del pollice.</td></tr>
+        <tr><td><img src="img/seiryuto.jpg" alt="Seiryuto" width="50" /></td><td>Seiryuto</td><td>Base del taglio della mano (a sciabola). La mano è piegata lateralmente e spinta in avanti.</td></tr>
+        <tr><td><img src="img/teisho.jpg" alt="Teisho" width="50" /></td><td>Teisho</td><td>Base del palmo della mano. Si usa piegando la mano all’insù e indietro per colpire lateralmente o verso il basso.</td></tr>
+        <tr><td><img src="img/kakuto.jpg" alt="Kakuto" width="50" /></td><td>Kakuto</td><td>Polso a testa di gru (polso piegato). Colpo eseguito con la parte curvata del polso partendo da Washide.</td></tr>
+        <tr><td><img src="img/wan.jpg" alt="Wan / Wanto / Shubo" width="50" /></td><td>Wan / Wanto / Shubo</td><td>Avambraccio. Nai Wan: lato del pollice; Gai Wan: lato opposto; Hai Wan: parte superiore; Shu Wan: parte inferiore.</td></tr>
+        <tr><td><img src="img/empi.jpg" alt="Empi / Hiji" width="50" /></td><td>Empi / Hiji</td><td>Gomito.</td></tr>
+        <tr><td><img src="img/hiza.jpg" alt="Shittsui / Hizagashira" width="50" /></td><td>Shittsui / Hizagashira</td><td>Ginocchio.</td></tr>
+        <tr><td><img src="img/koshi.jpg" alt="Koshi / Josokutei" width="50" /></td><td>Koshi / Josokutei</td><td>Punta del piede sotto le dita. Le dita sono rivolte verso l’alto.</td></tr>
+        <tr><td><img src="img/haisoku.jpg" alt="Haisoku" width="50" /></td><td>Haisoku</td><td>Collo del piede. Il piede è piegato all’ingiù con le dita rivolte verso il basso.</td></tr>
+        <tr><td><img src="img/teisoku.jpg" alt="Teisoku" width="50" /></td><td>Teisoku</td><td>Pianta del piede.</td></tr>
+        <tr><td><img src="img/kakato.jpg" alt="Kakato" width="50" /></td><td>Kakato</td><td>Tallone.</td></tr>
+        <tr><td><img src="img/sokuto.jpg" alt="Sokuto" width="50" /></td><td>Sokuto</td><td>Lato esterno del piede dalla parte del dito mignolo.</td></tr>
+        <tr><td><img src="img/tsumasaki.jpg" alt="Tsumasaki" width="50" /></td><td>Tsumasaki</td><td>Punta delle dita del piede. Le dita sono premute insieme per colpire con la punta.</td></tr>
+
+      </tbody>
+  </table>
+
+ <button id="backToTop" onclick="scrollToTop()">⬆ Torna su</button>
+  <script src="script.js"></script>
+
+</body>
+</html>

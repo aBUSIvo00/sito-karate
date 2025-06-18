@@ -1,0 +1,206 @@
+/* Reset di base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font base */
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #e32828, #e2d1c3);
+  color: #222;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  border-bottom: 3px solid #c8b6a6;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+header h3 {
+  margin-bottom: 10px;
+  color: #800000;
+  font-size: 1.5rem;
+}
+
+/* Navbar */
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+}
+
+nav ul li {
+  background-color: #f1e4d4;
+  border-radius: 6px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+nav ul li:hover {
+  background-color: #d9bfa5;
+  transform: scale(1.05);
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #4a2c2a;
+  font-weight: bold;
+}
+
+/* Sezione principale */
+main {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+main h2 {
+  margin-bottom: 20px;
+  color: #800000;
+  font-size: 2rem;
+  border-bottom: 2px solid #c8b6a6;
+  padding-bottom: 8px;
+}
+
+main p {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 1.05rem;
+}
+
+/* Blockquote per citazioni */
+blockquote, q {
+  margin: 20px 0;
+  padding: 12px 20px;
+  background-color: #f6f2ef;
+  border-left: 6px solid #800000;
+  font-style: italic;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #999;
+  font-size: 0.9rem;
+  padding: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  main {
+    padding: 20px;
+  }
+}
+
+/* Posizionamento e stile del logo */
+.dojo-logo {
+  position: absolute;
+  top: 38px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.dojo-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+  #backToTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 30px 55px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+  #backToTop:hover {
+    background: #000000;
+  }
+
+  /*zoom foto*/
+  body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery img {
+  max-width: 350px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  animation: zoomIn 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); }
+  to { transform: scale(1); }
+}
+
